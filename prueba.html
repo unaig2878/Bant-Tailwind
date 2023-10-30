@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Your Band</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="font-sans bg-gray-100">
+
+  <!-- Navbar -->
+  <div class="bg-indigo-600">
+    <div class="container mx-auto flex justify-between pt-4 pb-4">
+      <div class="text-white">
+        <span class="text-2xl">Your Band</span>
+      </div>
+      <nav class="space-x-4 text-white hover:text-gray-300">
+        <a href="#">HOME</a>
+        <a href="#band">BAND</a>
+        <a href="#tour">TOUR</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Automatic Slideshow Images -->
+  <div class="bg-gray-200 pt-16 pb-16">
+    <div class="container mx-auto">
+      <div class="flex mx-4">
+        <div class="w-full md:w-1/3 px-4 mb-8 ">
+          <div class="relative h-64 text-white text-center ">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThESwtTJTcGJiw5phlBkh4sG63m6pE2xC1VQ&usqp=CAU"
+              alt="Los Angeles" class="rounded-lg object-cover w-full h-full">
+            <div class="absolute inset-0 flex items-center justify-center ">
+              <div>
+                <h3 class="text-2xl font-bold">Los Angeles</h3>
+                <p class="mt-2"><b>We had the best time playing at Venice Beach!</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full md:w-1/3 px-4 mb-8">
+          <div class="relative h-64 text-white text-center">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThESwtTJTcGJiw5phlBkh4sG63m6pE2xC1VQ&usqp=CAU"
+              alt="New York" class="rounded-lg object-cover w-full h-full">
+            <div class="absolute inset-0 flex items-center justify-center">
+              <div>
+                <h3 class="text-2xl font-bold">New York</h3>
+                <p class="mt-2"><b>The atmosphere in New York is lorem ipsum.</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full md:w-1/3 px-4 mb-8">
+          <div class="relative h-64 text-white text-center">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThESwtTJTcGJiw5phlBkh4sG63m6pE2xC1VQ&usqp=CAU"
+              alt="Chicago" class="rounded-lg object-cover w-full h-full">
+            <div class="absolute inset-0 flex items-center justify-center">
+              <div>
+                <h3 class="text-2xl font-bold">Chicago</h3>
+                <p class="mt-2"><b>Thank you, Chicago - A night we won't forget.</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Band Section -->
+  <div id="band" class="py-16 text-center bg-indigo-400">
+    <div class="container mx-auto">
+      <h2 class="text-4xl font-bold mb-6">THE BAND</h2>
+      <p class=" text-gray-600"><i>We love music</i></p>
+      <p class="mt-6 mb-8">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+        sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+        nisi ut aliquip ex ea commodo consequat.</p>
+      <div class="flex mx-4">
+        <div class="w-full md:w-1/3 px-4 mb-8">
+          <p class="text-lg font-bold">Cristiano Ronaldo</p>
+          <img src="https://www.realmadrid.com/img/vertical_380px/cristiano_550x650_20180917025046.jpg"
+            alt="Cristiano Ronaldo" class="rounded-lg">
+        </div>
+        <div class="w-full md:w-1/3 px-4 mb-8">
+          <p class="text-lg font-bold">Cristiano Ronaldo</p>
+          <img src="https://www.realmadrid.com/img/vertical_380px/cristiano_550x650_20180917025046.jpg"
+            alt="Cristiano Ronaldo" class="rounded-lg">
+        </div>
+        <div class="w-full md:w-1/3 px-4 mb-8">
+          <p class="text-lg font-bold">Cristiano Ronaldo</p>
+          <img src="https://www.realmadrid.com/img/vertical_380px/cristiano_550x650_20180917025046.jpg"
+            alt="Cristiano Ronaldo" class="rounded-lg">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Tour Section -->
+  <div id="tour" class="text-center">
+    <h2 class="text-2xl font-bold mb-2">TOUR DATES</h2>
+    <p><i>Remember to book your tickets!</i></p><br>
+
+    <ul class="list-disc list-inside mb-4">
+      <li>September <span class="text-red-500">Sold out</span></li>
+      <li>October <span class="text-red-500">Sold out</span></li>
+      <li>November <span class="text-green-500">3</span></li>
+    </ul>
+
+    <div class="flex justify-center gap-4">
+      <div class="text-center border border-indigo-700 px-4 py-2 rounded ">
+        <p><b>New York</b></p>
+        <p>Fri 27 Nov 2016</p>
+        <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+        <button class="bg-blue-500 text-white px-4 py-2 rounded">Buy Tickets</button>
+      </div>
+
+      <div class="text-center border border-indigo-700 px-4 py-2 rounded">
+        <p><b>Paris</b></p>
+        <p>Sat 28 Nov 2016</p>
+        <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+        <button class="bg-blue-500 text-white px-4 py-2 rounded">Buy Tickets</button>
+      </div>
+
+      <div class="text-center border border-indigo-700 px-4 py-2 rounded">
+        <p><b>San Francisco</b></p>
+        <p>Sun 29 Nov 2016</p>
+        <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+        <button class="bg-blue-500 text-white px-4 py-2 rounded">Buy Tickets</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ticket Modal -->
+  <div id="ticketModal" class="flex  justify-center items-center mt-4">
+    <div class=" p-8 rounded  bg-indigo-700">
+      <div class="items-center">
+        <h2 class="text-2xl font-bold mb-4">Tickets</h2>
+        <p><label><i></i> Tickets, $15 per person</label></p>
+        <input type="text" placeholder="How many?" class="border-indigo-700 p-3  rounded-lg  mb-2">
+        <p><label><i></i> Send To</label></p>
+        <input type="text" placeholder="Enter email" class="border-indigo-700 p-3 rounded-lg  mb-4">
+        <p>Need <a href="#">help?</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+<div id="contact" class="py-16 bg-gray-800 text-white">
+  <div class="container mx-auto">
+    <h2 class="text-4xl font-bold mb-6 text-center">CONTACT</h2>
+    <p class="italic  text-center" ><i>Fan? Drop a note!</i></p>
+    <div class="flex mt-8">
+      <div class="w-1/3">
+        <ul>
+          <li class="mb-4 flex">
+            <i class="fa fa-map-marker mr-2"></i> Chicago, US
+          </li>
+          <li class="mb-4 flex">
+            <i class="fa fa-phone mr-2"></i> Phone: +00 151515
+          </li>
+          <li class="flex">
+            <i class="fa fa-envelope mr-2"></i> Email: mail@mail.com
+          </li>
+        </ul>
+      </div>
+      <div class="w-2/3">
+        <form action="/action_page.php" target="_blank" class="flex flex-col">
+          <div class="flex mb-4">
+            <div class="w-1/2 mr-4">
+              <input type="text" placeholder="Name" required name="Name"
+                class="border p-2 w-full rounded border-indigo-300 bg-gray-600">
+            </div>
+            <div class="w-1/2">
+              <input type="text" placeholder="Email" required name="Email"
+                class="border p-2 w-full border-indigo-300 bg-gray-600">
+            </div>
+          </div>
+          <input type="text" placeholder="Message" required name="Message"
+            class="border p-2 mb-4 w-full rounded   border-indigo-300 bg-gray-600 ">
+          <button type="submit"
+            class="bg-indigo-300 text-white py-2 px-4 rounded hover:bg-indigo-600">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+</body>
+
+</html>
